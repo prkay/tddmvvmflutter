@@ -1,0 +1,8 @@
+{
+    "title": "MVVM Flutter",
+    "email": "Email",
+    "password": "Password",
+    "welcome_message": "Welcome to my Flutter app!",
+    "invalid_email": "Please enter valid email",
+    "invalid_entery": "Please enter valid text"
+}
