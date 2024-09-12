@@ -51,14 +51,6 @@ const ColorScheme lightColorScheme = ColorScheme(
   onErrorContainer: Color(
     0xFF410002,
   ),
-  // Background Gradient Start
-  background: Color(
-    0xFFF5F5F5,
-  ),
-  // Background Gradient End
-  onBackground: Color(
-    0xFFE6E6E6,
-  ),
   // for white things which will be inverted in dark mode
   surface: Color(
     0xFFFFFFFF,
@@ -67,7 +59,7 @@ const ColorScheme lightColorScheme = ColorScheme(
   onSurface: Color(
     0xFF1D1D1D,
   ),
-  surfaceVariant: Color(
+  surfaceContainerHighest: Color(
     0xFFDEE4D8,
   ),
   onSurfaceVariant: Color(
