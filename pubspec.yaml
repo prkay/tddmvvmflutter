@@ -29,6 +29,8 @@ dependencies:
   equatable: 2.0.5
   http: 1.2.1
   dartz: 0.10.1
+  pruicomponent:
+    git: https://github.com/prkay/pruicomponent.git
 
 dev_dependencies:
   flutter_test:

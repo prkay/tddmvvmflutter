@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:pruicomponent/widgets/app_text_field.dart';
+import 'package:pruicomponent/widgets/progress_loader.dart';
 import 'package:tddmvvmflutter/resources/margin_keys.dart';
 import 'package:tddmvvmflutter/resources/string_keys.dart';
 import 'package:tddmvvmflutter/resources/widget_keys.dart';
@@ -8,8 +10,6 @@ import 'package:tddmvvmflutter/resources/widget_keys.dart';
 import '../../../injection/injection_container.dart';
 import '../../../resources/app_localizations.dart';
 import '../../../resources/form_validator.dart';
-import '../../../resources/widgets/app_text_field.dart';
-import '../../../resources/widgets/progress_loader.dart';
 import '../../domain/usecases/login_param.dart';
 import '../bloc/bloc.dart';
 
@@ -128,7 +128,7 @@ class _AppLoginState extends State<AppLogin> {
                                   RegExp('[^\\s]')),
                         ),
                         InkWell(
-                          child: Text(
+                          child: const Text(
                             'LogIn',
                             style: TextStyle(fontSize: 20.0),
                           ),
