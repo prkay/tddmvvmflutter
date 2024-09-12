@@ -1,15 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:pruicomponent/resources/app_localizations.dart';
+import 'package:pruicomponent/resources/margin_keys.dart';
+import 'package:pruicomponent/resources/string_keys.dart';
 import 'package:pruicomponent/widgets/app_text_field.dart';
 import 'package:pruicomponent/widgets/progress_loader.dart';
-import 'package:tddmvvmflutter/resources/margin_keys.dart';
-import 'package:tddmvvmflutter/resources/string_keys.dart';
-import 'package:tddmvvmflutter/resources/widget_keys.dart';
-
+import 'package:pruicomponent/resources/form_validator.dart';
 import '../../../injection/injection_container.dart';
-import '../../../resources/app_localizations.dart';
-import '../../../resources/form_validator.dart';
 import '../../domain/usecases/login_param.dart';
 import '../bloc/bloc.dart';
 
@@ -88,7 +86,6 @@ class _AppLoginState extends State<AppLogin> {
                           textAlign: TextAlign.center,
                         ),
                         AppTextFieldWidget(
-                          key: WidgetKeys.loginPassword,
                           inputPlaceHolder: translate(
                                 context,
                                 StringKeys.email,
@@ -108,7 +105,6 @@ class _AppLoginState extends State<AppLogin> {
                                   RegExp('[^\\s]')),
                         ),
                         AppTextFieldWidget(
-                          key: WidgetKeys.loginUsername,
                           inputPlaceHolder: translate(
                                 context,
                                 StringKeys.password,

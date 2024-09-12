@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:pruicomponent/resources/app_localizations.dart';
+import 'package:pruicomponent/resources/colors/light_color_scheme.dart';
+import 'package:pruicomponent/resources/styles/text_styles.dart';
 import 'features/login/pages/app_login.dart';
-import 'resources/app_localizations.dart';
-import 'resources/colors/light_color_scheme.dart';
-import 'resources/styles/text_styles.dart';
 
 class MyApp extends StatefulWidget {
   const MyApp({
